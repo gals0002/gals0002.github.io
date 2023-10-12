@@ -1,0 +1,9 @@
+body {font-size: 18px; font-family:Arial, Helvetica, sans-serif;}
+header, footer {background-color: aliceblue;}
+.site-title {color:rgb(171, 89, 57);}
+#my-image {box-shadow: 0 0 2px 1px black;}
+.hobbies {list-style: square;}
+.hobbies :nth-child(odd) {background-color: aquamarine;}
+nav a {text-decoration: none; border-style: solid; background-color:beige;}
+nav a:hover {text-decoration: none; border-style: solid; background-color:azure;}
+nav a:focus {text-decoration: none; border-style: solid; background-color:aquamarine;}
