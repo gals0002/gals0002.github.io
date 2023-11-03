@@ -34,11 +34,11 @@ header img {
     nav a {display: inline-block; padding:10px; width: 31%; border-right: 1px solid black;}
     a.stryo {border-right: 0px solid black;}
     .smol img {float: left; height: 9rem; padding: 1rem;}
-    .clear::after {
-    
-    
+    .clear::after {       
         content:""; display: block; clear: both;}
-.fax ul li {list-style-type: disc; margin-left: 1.5rem;}
+
+
+        .fax ul li {list-style-type: disc; margin-left: 1.5rem;}
 /* footer on ther right  */
 footer {text-align: right;}
 /* h2 bigger font and margin */
