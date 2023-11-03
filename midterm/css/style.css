@@ -1,0 +1,46 @@
+/*sets the whole document font and size*/html {font-family: Arial, Helvetica, sans-serif; font-size: 21px;}
+h1 {font-size:53px;}
+/*changes every state of link to be the same all caps black no underline*/a:hover {
+    color:black; text-decoration: none; text-transform: uppercase;}
+a:active {
+    color:black; text-decoration: none; text-transform: uppercase;}
+a {
+    color:black; text-decoration: none; text-transform: uppercase;}
+body {
+    background-color:rgb(66, 188, 172);}
+/*makes the blue things on the side basically*/.wrapper {
+    width: 80%; margin: auto; background-color:rgb(180, 219, 214);}
+
+
+    /*adds border to the form*/.forma {
+    border: 1px solid black; margin: 1%; padding: 1%;}
+    .forma p {
+    font-size: 27px;}
+/*makes text in header be on image*/.amongus {position: relative;
+    text-align: center;
+    color: white;}
+    header h1 {
+    z-index: 1;   position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+    transform: translate(-50%, -50%); color: white;}
+header img {
+    z-index: 0; object-fit: fill; width: 100%;}
+/* makes the menu horizontal */
+    nav ul li { 
+    display: inline; width:100%; text-align:center;}
+    nav a {display: inline-block; padding:10px; width: 31%; border-right: 1px solid black;}
+    a.stryo {border-right: 0px solid black;}
+    .smol img {float: left; height: 9rem; padding: 1rem;}
+    .clear::after {
+    
+    
+        content:""; display: block; clear: both;}
+.fax ul li {list-style-type: disc; margin-left: 1.5rem;}
+/* footer on ther right  */
+footer {text-align: right;}
+/* h2 bigger font and margin */
+h2 {font-size: 33px; margin: 0.75rem;}
+.wide {width: 100%;} /*makes form input things wider*/
