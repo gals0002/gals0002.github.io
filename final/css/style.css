@@ -1,0 +1,98 @@
+/* version for mobile */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+html {font-family: 'Open Sans', sans-serif;}
+body {max-width: 1200px; margin: auto}
+a {text-decoration: none;}
+.wrapper {margin: 2%;}
+ul {display: flex; flex-direction: column;} /*header stuff*/
+nav ul li:hover {color:#222; background-color: #c77c06;}
+header {background-color: #222;}
+nav ul li {padding: 15px 15px; text-align: center;  color: #c77c06;}
+nav ul li img {display: block; text-align: left;}
+/* li img::after {content: '<br>';} */
+header button {background-color: #222; color: #c77c06; border:#c77c06 solid 1px;}
+.asdf div div {opacity: 1;}
+header input {width: 100%;}
+.asdf #stf {background: #222222; background: rgba(22,22,22,0.66); height: fit-content; margin: auto; padding-left: 30px;} /*banner kinda*/
+.asdf {height: 500px; background-image: url("../images/main-banner.jpg"); color: white; background-size: cover; display:flex}
+.asdf p {line-height: 30px; font-size: 18px;margin-bottom: 18px;}
+header form {display: flex; padding: 16px;}
+h1 {font-size: 80px; font-weight: 600; line-height: 110px; margin-bottom: 30px;}
+.button {background-color: #c77c06; color: #222; width: 170px; height: 40px; padding: 10px; margin: 0px; margin-bottom: 10px;}
+div .wlcm {display: flex; flex-direction: column;}
+.au {background: #ffe6ac; display: flex; flex-direction: column;} /*aboutus*/
+.au img {margin: 16px;}
+h2 {font-size: 50px; font-weight: 600; margin-left: 16px; margin-bottom: 25px;}
+.au p {line-height: 1.41em; margin-bottom: 20px; margin-left: 16px;}
+.card {display: flex; flex-direction: column; margin-bottom: 20px;} /*what we do*/
+.card div {background-color: #222; color: white; font-size: 20px; width: 30%; padding: 10px; text-align: center; margin: 10px;}
+.card {background-color: #ffe6ac;}
+h3 {font-size: 30px; font-weight: 600; margin: 20px;}
+.card p {margin-left: 16px; line-height: 1.41em;}
+.wrapper {width: 95%;} /*random wrapper or sm*/
+.vision {display: flex; flex-direction: column; background-image: url(../images/vision.jpg); background-size: cover; color: white; background-position: center;} /*Our vision*/
+.vision h3 {margin-top: 50px;}
+.vision p {margin-left: 16px; line-height: 30px; margin-bottom: 16px;}
+.vision .a {margin-left: 16px; font-size: 22px; border: #c77c06 solid 1px; width: fit-content; background-color:rgba(22,22,22,0.5); padding: 30px; margin-bottom: 10px;}
+.linkedin {display: flex; flex-direction: column; background-color: #ffe6ac;} /*our workers*/
+h4 {font-weight: 600; margin-left: 16px; padding-bottom: 9px; border-bottom: #c77c06 solid 2px;}
+.linkedin p {margin: 16px;}
+.cu {margin-left: 16px;} /*contact us*/
+.cu input {width: 100%; height: 20px; margin-bottom: 10px; margin-right: 10px;}
+.cu textarea {width: 100%; height: 220px;}
+label {font-size: 20px; line-height: 35px;}
+.cu button {color: #c77c06; background-color: #222; width: 80px; height: 45px; font-size: 30px; padding: 2px; text-align: center;}
+tbody {border:#222 solid 1px;} /*table*/
+table {border:#222 solid 1px; width: auto; width:100%; font-size: 20px;}
+tr {border:#222 solid 1px; padding: 16px;}
+td {border:#222 solid 1px; padding: 16px;}
+th {border:#222 solid 1px; background-color: #ffe6ac; padding: 16px;}
+iframe {width: 100%; height: 500px;}
+footer {background-color: #222; color: #c77c06; padding: 16px;}
+footer p {padding: 16px;}
+footer a {text-decoration: underline;}
+@media only screen and (min-width: 759px){
+    ul {flex-direction: row; justify-content: space-between; flex-grow: 2;} /*makin the nac horizontal*/
+    ul :nth-child(1) {display: flex; justify-content: space-evenly;}
+    ul :nth-child(1) a {margin: auto; padding-left: 20px;}
+    header form {width: auto; margin: auto; flex-grow: 0;}
+    li {justify-self: center; flex-grow: 1; margin: auto;}
+    header {display: flex; flex-direction: row; justify-content: space-evenly; margin: auto;}
+    #stf {width: 80%;}
+    .au {display: grid; /*putting everything into grids*/
+    grid-template-rows: auto auto auto;
+grid-template-columns: 50% auto;
+
+grid-template-areas: "a b"
+"a c"
+"a d";
+padding-left: 5%; padding-right: 5%;}
+.au :nth-child(1) {grid-area: a; width: 90%; margin-left: 50px;}
+.au :nth-child(2) {margin-top: 2%;}
+.srvcs {display: grid;
+grid-template-areas: 
+"a a a b b b"
+"c c d d e e";}
+.srvcs :nth-child(1) {grid-area: a;}
+.srvcs :nth-child(2) {grid-area: b;}
+
+.srvcs :nth-child(3) {grid-area: c;}
+.srvcs :nth-child(4) {grid-area: d;}
+.srvcs :nth-child(5) {grid-area: e;}
+.srvcs > div > div {width: 90%; margin: auto; margin-bottom: 10px;}
+.ceos {display: grid; margin: 0px;
+grid-template-rows: auto auto; margin:auto;}
+
+.ceos :nth-child(1) {flex-direction: row;}
+.ceos :nth-child(2) {flex-direction: row-reverse;}
+.linkedin img {width: 50%;}
+.tbl {display: grid; grid-template-areas: "a b"
+    "c c";}
+
+    .tbl :nth-child(1) {grid-area: a;}
+    .tbl :nth-child(3) {grid-area: b;}
+    iframe {min-width: 500px;}
+    .tbl :nth-child(2) {grid-area: c;}
+    .tbl div {margin: 10px;}
+    footer {width: 100%}
+}

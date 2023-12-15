@@ -4,108 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>galstyan midterm</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="">
+    <header>    
         <nav><ul>
-            <li><a href="#home">Home</a></li>
-
-
+            <li><img src="images/logo.png" alt="our logo"><a href="#home">Home</a></li>
             <li><a href="#au">About Us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><form action="thanks.html" method="post">
+                <input type="text" id="fullname" name="fullname" placeholder="Search" class="srch">
+                <button type="submit"><span class="material-symbols-outlined">
+                    search
+                    </span></button>
+              </form></li>
         </ul></nav>
-        <form action="thanks.html" method="post">
-            <input type="text" id="fullname" name="fullname" placeholder="Search">
-            <button type="submit"></button>
-          </form>
+        
     </header>
     <main>
-    
         <!-- dont forget to add background image in css -->
-        <div class="wrapper"> 
-        <div>
+        <div class="asdf"> 
+        <div id="stf">
+            <div class="wlcm">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quisquam eum molestias cum, quia voluptates nam, omnis nisi fugiat atque harum ab iure praesentium dicta ullam. Ullam ducimus facere praesentium.</p>
-        
-        
-        <a href="#contact"><div class="button"><p>Connect with us</p></div></a></div>
+        <a href="#contact"><div class="button"><p>Connect with us<span class="material-symbols-outlined">
+            arrow_right
+            </span></p></div></a></div></div>
     </div>
-    <div class="wrapper">
+    <div class="au" id="#au">
         <img src="images/about-us.jpg" alt="image of a ping pong table">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure itaque nobis fugit quis, minus exercitationem ducimus, omnis laborum iste tempora eveniet asperiores et atque recusandae, quod commodi amet ipsa!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione error nihil odit. Officiis ipsum voluptas expedita fugiat dicta atque deleniti debitis facere nihil, labore voluptatum quos dolore. Debitis, rem.</p>
     </div>
     <h2 id="services">Our Services</h2>
-    <div class="card">
+    <div class="srvcs">
+    <div class="card wrapper">
         <img src="images/digital.jpg" alt="">
         <h3>Digital transformation</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima animi expedita ab doloribus cupiditate at quia molestiae quos placeat, enim modi consequatur error a labore dolore maiores fuga voluptatibus.</p>
-            <div></div>
+            <div>Digital Plans<span class="material-symbols-outlined">
+                arrow_right
+                </span></div>
         </img>
     </div>
-    <div class="card">
+    <div class="card wrapper">
         <img src="images/marketing.jpg" alt="">
             <h3>Marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt esse obcaecati, labore praesentium veniam quod inventore id velit laborum amet animi magnam aspernatur vitae, accusamus quo. Eum deleniti aliquid quisquam?</p>
-            <div>Marketing Plans</div>
+            <div>Marketing Plans<span class="material-symbols-outlined">
+                arrow_right
+                </span></div>
         </img>
-    
-    
     </div>
-    <div class="card">
+    <div class="card wrapper">
         <img src="images/video.jpg" alt="">
             <h3>Video Production</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis quia ratione nesciunt fugiat sapiente odio quo minima sed eveniet suscipit, perspiciatis quidem deleniti repudiandae consequuntur! Labore debitis nulla totam!</p>
-            <div>Video Plans</div>
+            <div>Video Plans<span class="material-symbols-outlined">
+                arrow_right
+                </span></div>
         </img>
     </div>
-    <div class="card">
+    <div class="card wrapper">
         <img src="images/web.jpg" alt="">
             <h3>Web Development</h3>
-       
-       
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptatem quaerat ea dolorum rem ex ullam praesentium veritatis iusto officia, natus debitis libero pariatur laborum repudiandae iste officiis necessitatibus obcaecati?</p>
-            <div>Web Plans</div>
+            <div><p>Web Plans<span class="material-symbols-outlined">
+                arrow_right
+                </span></p></div>
         </img>
     </div>
-    <div class="card">
+    <div class="card wrapper">
         <img src="images/print.jpg" alt="">
             <h3>Print</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem aliquid optio quibusdam quo? Laborum corrupti unde, similique minima obcaecati, maiores quasi nemo tempore, perferendis voluptates amet explicabo earum animi reiciendis!</p>
-            <div>Print Plans</div>
+            <div>Print Plans<span class="material-symbols-outlined">
+                arrow_right
+                </span></div>
         </img>
     </div>
 
-<!-- background image in css again -->
-    <div>
-        <h3></h3>
-            <p></p>
-            <div class="button2"></div>
     </div>
-
+<!-- background image in css again -->
+    <div class="vision">
+        <h3>Our Vision</h3>
+            
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, impedit esse excepturi, quia rerum est dolor explicabo, quis molestias sint autem voluptatum numquam nesciunt repellendus maiores consequuntur a ipsam commodi?</p>
+            <div class="button2"><div class="a">Learn More <span class="material-symbols-outlined">
+                arrow_right
+                </span></div></div></div>
+    </div>
     <h2 id="team">Our Team</h2>
+    <div class="ceos wrapper">
     <div class="linkedin">
         <img src="images/john.jpg" alt="John Doe">
-        <h3>John Doe</h3>
+        <div class="text"><h3>John Doe</h3>
         <h4>CEO and Co-owner</h4>
         
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur animi, similique, beatae aut quaerat doloremque perspiciatis consequatur recusandae sapiente, qui itaque maxime nobis iusto explicabo suscipit velit ut veritatis. Quia.
-        </p>
+        </p></div>
     </div>
     <div class="linkedin">
         <img src="images/bob.jpg" alt="Bob Rite">
+        <div class="text">
         <h3>Bob Rite</h3>
         <h4>CFO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur animi, similique, beatae aut quaerat doloremque perspiciatis consequatur recusandae sapiente, qui itaque maxime nobis iusto explicabo suscipit velit ut veritatis. Quia.
-        </p>
+        </p></div>
     </div>
+</div>
     <h2 id="contact">Contact Us</h2>
-    <h3>Sund us a message</h3>
-    <form action="#" method="post">
+    <div class="tbl wrapper">
+    <div class="msg"><h3>Send us a message</h3>
+    <form action="#" method="post" class="cu">
         <label for="fullname">Name</label>
         <input id="fullname" type="text" name="fullname">
         <label for="email">Email</label>
@@ -113,11 +130,9 @@
         <label for="message">Your Message</label>
      <textarea id="message"></textarea>
      <button type="submit">Send</button>
-      
-    </form>
-      <h3>Hours of operation</h3>
+    </form></div>
+      <div class="hrs"><h3>Hours of operation</h3>
       <table>
-        <caption>Student Information</caption>
         <thead>
           <tr>
             <th>Days</th>
@@ -126,7 +141,6 @@
         </thead>
         <tbody>
           <tr>
-    
             <td>Monday - Friday</td>
             <td>Saturday - Sunday</td>
           </tr>
@@ -135,9 +149,8 @@
             <td>Closed</td>
           </tr>
         </tbody>
-      </table>
-      <h3>Location</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.9850883379935!2d-75.7556008876283!3d45.350016298580876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2z0JrQvtC70LvQtdC00LYg0JDQu9Cz0L7QvdC60LjQvSDQsiDQntGC0YLQsNCy0LAg0JrQsNC80L_Rg9GB!5e0!3m2!1sru!2sca!4v1701395376749!5m2!1sru!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </table></div>
+      <div class="loc"> <h3>Location</h3>
+      <iframe class="wrapper" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.9850883379935!2d-75.7556008876283!3d45.350016298580876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2z0JrQvtC70LvQtdC00LYg0JDQu9Cz0L7QvdC60LjQvSDQsiDQntGC0YLQsNCy0LAg0JrQsNC80L_Rg9GB!5e0!3m2!1sru!2sca!4v1701395376749!5m2!1sru!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
       <footer><p>&copy; Copyright Three Star Media, 2020</p><p>All images are taken from <a href="https://unsplash.com">Unsplash</a></p></footer>
-</body>
-</html>
+</body></html>
